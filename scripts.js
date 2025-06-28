@@ -154,7 +154,7 @@ document.addEventListener('DOMContentLoaded', function() {
     }, 300);
   };
   
-  setTimeout(removeToast, 5000);
+  setTimeout(removeToast, 1500);
   
   // Close button
   toast.querySelector('.toast-close').addEventListener('click', removeToast);
@@ -1611,7 +1611,7 @@ document.getElementById('search-input')?.addEventListener('keypress', (e) => {
       // Auto remove after 5 seconds
       setTimeout(() => {
         toast.remove();
-      }, 5000);
+      }, 1500);
       
       // Close button
       toast.querySelector('.toast-close').addEventListener('click', () => {
