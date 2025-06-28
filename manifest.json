@@ -1,0 +1,19 @@
+{
+  "name": " DE.Dictionary ",
+  "short_name": "دیکشنری",
+  "description": "دیکشنری پیشرفته آلمانی به فارسی با قابلیت ذخیره لغات، تمرین و آزمون",
+  "start_url": "./",
+  "display": "standalone",
+  "theme_color": "#4361ee",
+  "background_color": "#f5f7fa",
+  "icons": [
+    {
+      "src": "./icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "lang": "fa",
+  "dir": "rtl",
+  "orientation": "portrait-primary"
+}
